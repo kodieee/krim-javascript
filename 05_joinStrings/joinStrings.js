@@ -7,16 +7,17 @@
  The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
 */
 
-const { firstName, lastName, thisYear, birthYear } = require("./joinStrings-example")
-
+//const { firstName, lastName, thisYear, birthYear } = require("./joinStrings-example")
 // Add your code right below, good luck!
 
 firstName = "Carlos";
 lastName = "Stevenson";
 thisYear = 1965;
 birthYear = 1947;
+age = thisYear - birthYear;
+fullName = firstName + " " + lastName;
 
-const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old."
+const greeting = "Hello! My name is " + this.fullName + " and I am " + age + " years old."
 
 
 // Do not change this
